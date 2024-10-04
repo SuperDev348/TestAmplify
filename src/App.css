@@ -1,0 +1,22 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.background-grid {
+  background-image: url('bg-grid.png');
+  background-repeat: no-repeat;
+}
+
+
+/* remove this later */
+:where(.css-dev-only-do-not-override-3rel02).ant-menu-inline.ant-menu-root .ant-menu-item >.ant-menu-title-content, :where(.css-dev-only-do-not-override-3rel02).ant-menu-inline.ant-menu-root .ant-menu-submenu-title >.ant-menu-title-content {
+  flex:none
+}
+
+:where(.css-dev-only-do-not-override-3rel02).ant-menu-light.ant-menu-inline .ant-menu-item, :where(.css-dev-only-do-not-override-3rel02).ant-menu-light>.ant-menu.ant-menu-inline .ant-menu-item{
+  padding-left: 10px !important;
+}
